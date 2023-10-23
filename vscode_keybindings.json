@@ -1,0 +1,138 @@
+// Place your key bindings in this file to override the defaults
+[
+  {
+    "key": "cmd+down",
+    "command": "workbench.action.terminal.focusNext",
+    "when": "terminalFocus"
+  },
+  {
+    "key": "cmd+up",
+    "command": "workbench.action.terminal.focusPrevious",
+    "when": "terminalFocus"
+  },
+  {
+    "key": "ctrl+cmd+h",
+    "command": "jupyter.exportToHTML"
+  },
+  {
+    "key": "ctrl+cmd+r",
+    "command": "jupyter.runallcells"
+  },
+  {
+    "key": "alt+k",
+    "command": "workbench.action.terminal.focus"
+  },
+  {
+    "key": "alt+j",
+    "command": "workbench.action.focusActiveEditorGroup"
+  },
+  {
+    "key": "ctrl+; b",
+    "command": "-jupyter.insertCellBelow",
+    "when": "editorTextFocus && jupyter.hascodecells && !notebookEditorFocused"
+  },
+  {
+    "key": "a a",
+    "command": "jupyter.insertCellAbove",
+    "when": "editorTextFocus && jupyter.hascodecells && !notebookEditorFocused"
+  },
+  {
+    "key": "ctrl+; a",
+    "command": "-jupyter.insertCellAbove",
+    "when": "editorTextFocus && jupyter.hascodecells && !notebookEditorFocused"
+  },
+  {
+    "key": "cmd+b b",
+    "command": "workbench.action.toggleActivityBarVisibility"
+  },
+  {
+    "key": "cmd+e cmd+a",
+    "command": "-sqltools.runFromBookmarks"
+  },
+  {
+    "key": "cmd+e cmd+e",
+    "command": "sqltools.executeCurrentQuery"
+  },
+  {
+    "key": "cmd+b",
+    "command": "-workbench.action.toggleSidebarVisibility"
+  },
+  {
+    "key": "cmd+b",
+    "command": "workbench.action.toggleSidebarVisibility"
+  },
+  {
+    "key": "z z",
+    "command": "jupyter.notebookeditor.keybind.undo",
+    "when": "config.jupyter.enableKeyboardShortcuts && config.jupyter.enableKeyboardShortcuts && notebookEditorFocused && notebookEditorFocused && !inputFocus && !inputFocus && notebookViewType == 'jupyter-notebook' && notebookViewType == 'jupyter-notebook'"
+  },
+  {
+    "key": "z",
+    "command": "-jupyter.notebookeditor.keybind.undo",
+    "when": "config.jupyter.enableKeyboardShortcuts && config.jupyter.enableKeyboardShortcuts && notebookEditorFocused && notebookEditorFocused && !inputFocus && !inputFocus && notebookViewType == 'jupyter-notebook' && notebookViewType == 'jupyter-notebook'"
+  },
+  {
+    "key": "shift+cmd+i",
+    "command": "jupyter.notebookeditor.interruptkernel"
+  },
+  {
+    "key": "cmd+\\",
+    "command": "-workbench.action.splitEditor"
+  },
+  {
+    "key": "cmd+\\",
+    "command": "workbench.action.splitEditor"
+},
+{
+    "key": "cmd+-",
+    "command": "-workbench.action.zoomOut"
+},
+{
+    "key": "cmd+=",
+    "command": "-workbench.action.zoomIn"
+},
+{
+    "key": "cmd+=",
+    "command": "zoombar-vscode.zoomIn"
+},
+{
+    "key": "cmd+-",
+    "command": "zoombar-vscode.zoomOut"
+},
+{
+    "key": "ctrl+alt+v",
+    "command": "toggleVim"
+},
+{
+    "key": "alt+cmd+m",
+    "command": "editor.action.toggleMinimap"
+},
+{
+    "key": "ctrl+shift+\\",
+    "command": "workbench.action.terminal.new",
+    "when": "terminalProcessSupported"
+},
+{
+    "key": "ctrl+shift+`",
+    "command": "-workbench.action.terminal.new",
+    "when": "terminalProcessSupported"
+},
+{
+    "key": "shift+alt+i",
+    "command": "editor.action.insertCursorAtEndOfEachLineSelected",
+    "when": "editorTextFocus"
+},
+{
+    "key": "shift+alt+i",
+    "command": "-editor.action.insertCursorAtEndOfEachLineSelected",
+    "when": "editorTextFocus"
+},
+{
+    "key": "ctrl+shift+t",
+    "command": "workbench.action.toggleLightDarkThemes"
+},
+{
+    "key": "alt+cmd+n",
+    "command": "workbench.action.toggleEditorWidths"
+}
+]

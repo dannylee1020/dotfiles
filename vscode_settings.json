@@ -1,0 +1,111 @@
+{
+  "workbench.preferredDarkColorTheme": "GitHub Dark Dimmed",
+  "workbench.preferredLightColorTheme": "Feather",
+  "terminal.integrated.inheritEnv": true,
+  "terminal.integrated.scrollback": 10000,
+  "search.useIgnoreFiles": false,
+
+  // zoom
+  "zoombar.zoomUnit": 10,
+
+  // python
+  "python.languageServer": "None",
+  "[python]": {
+    "editor.codeActionsOnSave": {
+      "source.organizeImports": false
+    },
+    "editor.tabSize": 4,
+    "editor.formatOnSave": true,
+    "editor.defaultFormatter": "ms-python.black-formatter"
+},
+
+  "editor.quickSuggestions": {
+    "other": false,
+    "comments": false,
+    "strings": false
+  },
+  // Controls if suggestions should be accepted with "Enter" - in addition to "Tab". Helps to avoid ambiguity between inserting new lines and accepting suggestions.
+  "editor.acceptSuggestionOnEnter": "off",
+  // Controls the delay in ms after which quick suggestions will show up.
+  "editor.quickSuggestionsDelay": 10,
+  // Enable word based suggestions
+  "editor.wordBasedSuggestions": false,
+  "editor.acceptSuggestionOnCommitCharacter": false,
+  "editor.rulers": [88, 120],
+  "editor.detectIndentation": false,
+  "editor.bracketPairColorization.enabled": true,
+
+  "editor.defaultFormatter": null,
+  "[javascript]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode",
+    "editor.formatOnSave": true,
+    "editor.tabSize": 4
+  },
+  "[html]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode",
+    "editor.formatOnSave": true,
+    "editor.tabSize" : 4,
+
+  },
+  "[javascriptreact]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode",
+    "editor.formatOnSave": true,
+    "editor.tabSize": 4
+  },
+
+  "prettier.tabWidth": 4,
+  "prettier.bracketSpacing": true,
+  "prettier.singleQuote": true,
+
+  // files
+  "files.associations": {
+    "*.sql": "jinja-sql",
+    "**/target/**": "",
+    "*html": "html"
+  },
+  "files.trimTrailingWhitespace": true,
+  "emmet.triggerExpansionOnTab": true,
+
+
+  // js
+  "javascript.suggestionActions.enabled": false,
+  "security.workspace.trust.untrustedFiles": "open",
+
+  "files.exclude": {
+    "**/.git": true,
+    "**/.svn": true,
+    "**/.hg": true,
+    "**/CVS": true,
+    "**/.DS_Store": true,
+    "**/tmp": true,
+    "**/node_modules": true,
+    "**/bower_components": true,
+    "**/dist": true
+  },
+
+  "files.watcherExclude": {
+    "**/.git/objects/**": true,
+    "**/.git/subtree-cache/**": true,
+    "**/node_modules/**": true,
+    "**/tmp/**": true,
+    "**/bower_components/**": true,
+    "**/dist/**": true
+},
+"editor.stickyScroll.enabled": true,
+"[json]": {
+    "editor.defaultFormatter": "vscode.json-language-features"
+},
+"editor.inlineSuggest.enabled": true,
+"[go]": {
+
+    "editor.formatOnSave": true,
+    "editor.codeActionsOnSave": {
+        "source.organizeImports": false
+    },
+},
+"go.formatTool": "gofmt",
+
+"window.zoomLevel": 0,
+"workbench.startupEditor": "none",
+"workbench.colorTheme": "Feather"
+}
