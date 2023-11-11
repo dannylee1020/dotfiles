@@ -137,7 +137,7 @@ alias python=python3
 # alias activate="source $(poetry env info --path)/bin/activate"
 
 export POETRY_VIRTUALENVS_IN_PROJECT=true
-export PATH="$HOME/.poetry/bin:$PATH"
+export PATH="/Users/dannylee1020/.local/bin:$PATH"
 
 ##---------- Go ----------##
 export GOPATH=$HOME/go
