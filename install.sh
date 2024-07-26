@@ -12,42 +12,55 @@ PACKAGES=(
 
 CASKS=(
     visual-studio-code
-    obsidian
+    notion
     yt-music
-    brave-browser
     rectangle
     iterm2
     fliqlo
-    numi
 )
 
 VSCODE_EXTENSIONS=(
     4ops.terraform
     aaron-bond.better-comments
+    alexandernanberg.horizon-theme-vscode
     azemoh.one-monokai
-    Cardinal90.multi-cursor-case-preserve
+    be5invis.vscode-icontheme-nomo-dark
+    cardinal90.multi-cursor-case-preserve
+    daltonmenezes.aura-theme
     dericcain.feather
+    dustypomerleau.tol
     eamodio.gitlens
+    echevarriandre.theme-dracula-clean
     ecmel.vscode-html-css
     esbenp.prettier-vscode
-    GitHub.github-vscode-theme
+    fivepointseven.vscode-theme-onedark-spacegray
+    github.github-vscode-theme
     golang.go
     mechatroner.rainbow-csv
     ms-azuretools.vscode-docker
     ms-python.black-formatter
+    ms-python.debugpy
     ms-python.isort
     ms-python.python
     ms-python.vscode-pylance
+    ms-vscode-remote.remote-containers
     nickdemayo.vscode-json-editor
     perragnaredin.september-steel
     radiolevity.search-lights
     rangav.vscode-thunder-client
+    redhat.vscode-yaml
     rokoroku.vscode-theme-darcula
     samuelcolvin.jinjahtml
+    sdras.night-owl
     tamasfe.even-better-toml
     techer.open-in-browser
     thisotherthing.vscode-todo-list
+    tinkertrain.theme-panda
+    tristanremy.mirage
+    vincentfiestada.cold-horizon-vscode
+    will-stone.plastic
     wraith13.zoombar-vscode
+    yummygum.city-lights-theme
     yzhang.markdown-all-in-one
     zhuangtongfa.material-theme
     zxh404.vscode-proto3
@@ -114,7 +127,7 @@ function setup_shell () {
 
 function setup_python () {
     echo "Installing python"
-    pyenv install -v 3.10
+    pyenv install -v 3.12
     echo "Done installing python"
 
     echo "Setting up poetry ..."
