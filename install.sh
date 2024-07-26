@@ -68,7 +68,7 @@ VSCODE_EXTENSIONS=(
 
 function install_prereqs () {
     echo "Installing prereqs..."
-    xcode tools for homebrew
+    # xcode tools for homebrew
     xcode-select --install
 
     # install homebrew before installing everything else
