@@ -12,6 +12,7 @@ PACKAGES=(
 
 CASKS=(
     visual-studio-code
+    brave-browser
     notion
     yt-music
     rectangle
